@@ -1,0 +1,575 @@
+/*Sec*/
+
+.intro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("C://html, css//sdu homework//MIDTERM//img//photo_2022-10-13_10-44-32.jpg") center no-repeat;
+    background-size: cover;/*Занимает всю площадь экрана*/
+    margin: auto; 
+}
+.gd{
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.a1:hover{
+    background-color:  rgb(234, 57, 244);
+    text-decoration: none;
+    color: black;
+}
+.bim a{
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.gf{
+    float: right;
+    writing-mode: vertical-rl;
+    margin-right: 200px;
+}
+
+
+/*sec*/
+.stud{
+    margin-top: 740px;
+    background-color: black;
+    max-width: 100%;
+    height: 300px;
+}
+@media(max-width:1400px) {
+     .stud{
+    margin-top: 700px;
+    } 
+}
+
+.inf{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 500px;
+}
+@media(max-width:1000px) {
+    .gf{
+        writing-mode: horizontal-tb;
+        margin: 0;
+        float: left;
+    }
+    .gd{
+        float: left;
+        margin: 0;
+    }
+    .bim a{
+        font-size: 30px;
+        font-weight: 800;
+    }
+}
+
+.who{
+    color: rgb(208, 112, 213);
+    writing-mode: vertical-rl;
+    float: right;
+    margin-top: 200px;
+}
+.info{
+    border: 1px solid white;
+    height: 300px;
+    display: flex;
+    background-color: white;
+}
+
+.d1{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 0.5cm;
+}
+
+.d1:hover{
+    background-image: url("C://html, css//sdu homework//MIDTERM//img//fon3.jpg");
+}
+.d2:hover{
+    background-image: url("C://html, css//sdu homework//MIDTERM//img//fon4.jpg");
+}
+.d3:hover{
+    background-image: url("C://html, css//sdu homework//MIDTERM//img//fon4.jpg");
+}
+.h7{
+    font-size: 14px;
+}
+.d2{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0.5cm 0.5cm 0
+}
+.d3{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 0.5cm 0 0 0.5cm
+}
+
+@media(max-width:1000px){
+    .info{
+        margin: auto;
+        flex: none;
+        flex-direction: column; 
+    }
+     .info>div{
+        width: 100%;
+    } 
+    .d3{
+        height: 450px;
+    }
+    .d2{
+        height: 450px;
+        width: 0px;
+    }
+    .d1{
+        height: 450px;
+    }
+    .h7{
+        font-size: 12px;
+    }
+    .log{
+        margin-top: 150px;
+    }
+    .who{
+        margin: auto;
+        margin-top: 70px;
+    }
+}
+@media(max-width:600px) {
+    .d1{
+        height: 650px;
+    }
+    .d2{
+        width: 0;
+    }
+    .d3{
+        height: 650px;
+    }
+    .log{
+        margin-top: 240px;
+    }
+}
+@media(max-width:440px) {
+    .log{
+        margin-top: 80%;
+    }
+    
+}
+
+
+/*Sec*/
+.vod{
+    margin-top: 99px;
+    background-color: black;
+}
+.log{
+    max-width: 100%;
+    background-color: white;
+    border-radius: 1cm;
+}
+.vf{
+    background-color: black;
+    
+}
+.jor{
+    margin-left: 900px;
+    margin-top: 200px;
+    margin-right: 20px;
+    width: 530px;
+}
+
+
+@media(max-width:1300px){
+    .jor{
+        margin: auto;
+    }
+}
+.kv1{
+    background-color: black;
+}
+.cont{
+    background-color: black;
+}
+.galery-list{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.galery-item img{
+    max-width: 100%;
+    height: auto;
+}
+.zak{
+    font-size: 40px;
+    margin-top: 400px;
+}
+.galery-item a{
+    text-decoration: none;
+    margin-left: 200px;
+}
+.branding{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.br{
+    color: rgb(181, 16, 213);
+    justify-content: flex-end;
+}
+.brand-list{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.brand-item img{
+    max-width: 100%;
+    height: auto;
+}
+.zakaza{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid rgb(178, 73, 199); 
+    text-align: center;
+    border-radius: 2cm;
+    transform-origin: center center;
+    text-decoration: none;
+    
+}
+.zakaza:hover{
+    background-image: url("C://html, css//sdu homework//MIDTERM//img//fon2.jpg");
+}
+.zav{
+    color: white;
+    text-decoration: none;
+    font-weight:60px;
+    font-size: 40px;
+    margin-top: 170px;
+}
+@media(max-width:1000px){
+    .zakaza{
+        height: 200px;
+    }
+    .zav{
+        margin-top: 60px;
+    }
+}
+/*Sec*/
+.saits{
+    height: 340px;
+    width: 100%;
+    background-color: black;
+}
+.os{
+    margin-top: 180px;
+    float: right;
+    width: 480px;
+}
+.sait-list{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+@media(max-width:1000px){
+    .sait-item1 img{
+        max-width: 60%;
+        margin: auto;
+    }
+    .inf{
+        max-width: 90%;
+    }
+    .jor{
+        max-width: 90%;
+    }
+    .branding img{
+        max-width: 90%;
+    }
+}
+.sait-item1{
+    border: 1px solid white;
+    width: 1000px;
+    border-radius: 1cm;
+}
+.sait-item1 img{
+    width: 700px;
+    margin-left: 150px;
+    margin-top: 50px; 
+}
+.sait-item2{
+    margin-left: 15px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 1cm;
+}
+.sait-item2 img{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px; 
+}
+.sait-items{
+    margin-top: 20px;
+    border-radius: 0.6cm;
+    padding: 20px;
+    border: 1px solid white;
+}
+.sait-items img{
+    width: 430px;
+}
+@media(max-width:475px){
+    .sait-item1{
+        max-width: 100%;
+    }
+    .sait-item1 img{
+        max-width: 60%;
+        margin: auto;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .sait-item2{
+        max-width: 100%;
+        margin: auto;
+    }
+    .sait-item2 img{
+        max-width: 60%;
+        margin: auto;
+        margin-left: 70px;
+    }
+}
+
+/*sec*/
+.dyv{
+    background-color: black;
+    display: flex;
+}
+.nne{
+    margin-top: 200px;
+    
+}
+.nn{
+    margin-left: 250px;
+    color: white;
+    width: 380px;
+    display: flex;
+}
+.ris{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.lov{
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    line-height: 0.18in;
+}
+.love{
+    font-size: 18;
+    color: rgb(149, 145, 146); 
+    line-height: 0.17in;
+}
+.cif{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 28px;
+    color: black;
+    -webkit-text-stroke: 0.2px white;
+}
+.hrr{
+    height: 2px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+/*sec*/
+.fl{
+    background-color: black;
+    display: flex;
+    height: 730px;
+}
+.bu{
+    margin-top: 120px;
+}
+.ur{
+    margin-left: 170px;
+}
+.zae{
+    width: 550px;
+    margin-top: 60px;
+    background-image: url("C://html, css//sdu homework//MIDTERM//img//giphy_blooob_circle.gif");
+}
+@media(max-width:440px) {
+    .yst{
+        max-width: 60%;
+    }
+    .ht, .ima{
+        margin: auto;
+        max-width: 100%;
+    }
+    .ost{
+        max-width: 100%;
+    }
+    .ht6{
+        max-width: 100%;
+
+    }
+}
+
+
+@media(max-width:600px){
+    .zae{
+    width: 100%;
+    }
+}
+.zae{
+    margin-left: 50px;
+}
+.fkk{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.yst{
+    margin-top: 70px;
+}
+.ht{
+    color: white;
+}
+.ima{
+    height: 50px;
+    width: 280px;
+    background-color: black;
+    border-radius: 0.2cm;
+    box-shadow: 1px 1px 1px 0 red;
+}
+.ima:focus{
+     color: white
+}
+.ostzav{
+    background-color: black;
+    height: 300px; 
+}
+.ost{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 0.3cm;
+    transform-origin: center center;
+    text-decoration: none;
+    background-color: rgb(219, 38, 255); 
+}
+.oe{
+    color: white;
+    margin: auto;
+    font-size: 28px;
+    font-weight: 700;
+}
+.ht6{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(149, 145, 146); ;
+}
+/*sec*/
+.qwe{
+    height: 300px;
+    background-color: black;
+}
+.obw{
+    justify-content: center;
+    display: flex;
+    
+}
+.po{
+    margin-right: 120px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+}
+.po:hover{
+    background-color: palevioletred;
+    color: white;
+}
+.fr{
+    margin: auto;
+    padding-left: 50px;
+}
+
+@media(max-width:415px) {
+    .po{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1000px) {
+    .brand-item{
+        max-width: 50%;
+    }
+    .zakaza{
+        max-width: 50%;
+    }
+    .obw{
+        display: block;
+    }
+    .dyv{
+        flex-direction: column-reverse;
+    }
+    .nne{
+        margin: 0;
+    }
+    .nn{
+        margin: auto;
+    }
+    .ris img{
+        max-width: 90%;
+    }
+    .fl{
+        display: block;
+        margin: auto;
+    }
+    .ur img{
+        max-width: 110%;
+        margin: auto;
+    }
+    .zae{
+        margin: auto;
+    }
+    .bu{
+        margin-top: 0;
+    }
+}
+@media(max-width:475px){
+    .os{
+        max-width: 90%;
+    }
+}
+
+
+
+
