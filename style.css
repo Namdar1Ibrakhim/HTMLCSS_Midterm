@@ -7,7 +7,7 @@
     right: 0;
     width: 100%;
     height: 100vh;
-    background: url("C://html, css//sdu homework//MIDTERM//img//photo_2022-10-13_10-44-32.jpg") center no-repeat;
+    background: url("img//photo_2022-10-13_10-44-32.jpg") center no-repeat;
     background-size: cover;/*Занимает всю площадь экрана*/
     margin: auto; 
 }
